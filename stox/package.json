@@ -2,6 +2,7 @@
   "name": "stox",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bhimeshchauhan.github.io/proximity_labs",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -16,13 +17,15 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "react-sparklines": "^1.7.0",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.2",
+    "ws": "^7.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build -b deploy"
   },
   "eslintConfig": {
